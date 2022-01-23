@@ -29,12 +29,12 @@ function AddStudents(props) {
 
             <Form.Group className="mb-3">
                 <Form.Label>Name</Form.Label>
-                <Form.Control type="text" placeholder="Name" onChange={(e)=>setName(e.target.value)}/>
+                <Form.Control type="text" placeholder="Your Name" onChange={(e)=>setName(e.target.value)}/>
             </Form.Group>
 
             <Form.Group className="mb-3">
                 <Form.Label>Email address</Form.Label>
-                <Form.Control type="email" placeholder="Enter email" onChange={(e)=>setEmail(e.target.value)}/>
+                <Form.Control type="email" placeholder="Your Enter email" onChange={(e)=>setEmail(e.target.value)}/>
                 <Form.Text className="text-muted">
                 We'll never share your email with anyone else.
                 </Form.Text>
@@ -42,12 +42,12 @@ function AddStudents(props) {
 
             <Form.Group className="mb-3" >
                 <Form.Label>Mobile Number</Form.Label>
-                <Form.Control type="text" placeholder="Mobile" onChange={(e)=>setMobile(e.target.value)}/>
+                <Form.Control type="text" placeholder="Your Mobile Number" onChange={(e)=>setMobile(e.target.value)}/>
             </Form.Group>
 
             <Form.Group className="mb-3">
                 <Form.Label>Class</Form.Label>
-                <Form.Control type="text" placeholder="Class" onChange={(e)=>setCls(e.target.value)}/>
+                <Form.Control type="text" placeholder="Your Class Name" onChange={(e)=>setCls(e.target.value)}/>
             </Form.Group>
   
             <Button variant="primary" onClick={handleSubmit}>

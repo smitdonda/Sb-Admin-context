@@ -20,21 +20,21 @@ function App() {
 
   let [students,setStudents] = useState([
       {
-        name:"Kiran",
-        email:"kiran@gmail.com",
-        mobile:"12345678",
+        name:"Karan",
+        email:"karan@gmail.com",
+        mobile:"753232167",
         class:"B30WD"
       },
       {
         name:"Raj",
         email:"Raj@gmail.com",
-        mobile:"45678123",
+        mobile:"9921312325",
         class:"B20WE"
       },
       {
-        name:"Hemant",
-        email:"hemant@gmail.com",
-        mobile:"12345678",
+        name:"arjun",
+        email:"arjun@gmail.com",
+        mobile:"982141342",
         class:"B30WD"
       }
   ]);

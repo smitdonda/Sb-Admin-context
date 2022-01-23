@@ -41,7 +41,7 @@ function AddStudents(props) {
             </Form.Group>
 
             <Form.Group className="mb-3" >
-                <Form.Label>Mobile</Form.Label>
+                <Form.Label>Mobile Number</Form.Label>
                 <Form.Control type="text" placeholder="Mobile" onChange={(e)=>setMobile(e.target.value)}/>
             </Form.Group>
 

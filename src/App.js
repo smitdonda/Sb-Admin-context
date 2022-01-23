@@ -32,7 +32,7 @@ function App() {
         class:"B20WE"
       },
       {
-        name:"arjun",
+        name:"Arjun",
         email:"arjun@gmail.com",
         mobile:"982141342",
         class:"B30WD"
